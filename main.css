@@ -1,0 +1,289 @@
+
+body {
+     background-color: #7adbec;
+     scroll-behavior: smooth;
+ }
+
+#Sitografia {
+    font-size: 1vw;
+}
+#box_first_title {
+    border: 1px solid #7adbec;
+    width: 44%;
+    margin-top: 3%;
+    margin-left: 3%;
+
+}
+
+h1 {
+    margin-block-start: 0%; 
+    margin-block-end: 0%;
+    font-size: 10vw;
+    
+}
+
+#box_header {
+    border: 1px solid #7adbec;
+    width: 44%;
+    float: right;
+    margin-right: 3%;
+    padding-top: 3%;
+}
+
+
+
+.center {
+    text-align: center;
+    margin-block-end: 0.02em;
+    font-size: 1.2vw;
+    margin-top: 15%;
+}
+
+#right_text {
+    
+    font-size: 1.5vw;
+    padding-top: 22%;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.0vw;
+    text-align: justify;
+}
+
+#column0_plastic {
+    margin-top: 15%;
+    border-top: black 0.12vw solid;
+    float: left;
+    margin-left: 3%;
+    width: 29%;
+
+}
+.photo_text {
+    font-size: 1.5vw;
+}
+
+.info_images {
+    width: 100%;
+    height: 39vw;
+}
+
+li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.0vw;
+    margin-top: 1%;
+}
+
+#slider_box {
+    border: black 1px solid;
+    margin-top: 75%;
+    margin-left: 3%;
+    margin-right: 4%;
+    margin-bottom: 10%;
+
+}
+
+.background_image {
+    width: 100%;
+    height: 45vw;
+}
+
+#first_photo_box {
+    margin-left: 3%;
+    width: 41%;
+    float: left;
+    
+}
+
+#first_main_box {
+    margin-right: 4%;
+    width: 49%;
+    float: right;
+}
+
+#first_main_photo {
+    width: 100%;
+    height: 43vw;
+}
+
+#first_zero_column {
+    float: left;
+    width: 25%;
+}
+
+#first_first_column {
+    float: right;
+    width: 70%;
+}
+
+iframe {
+    width: 100%;
+    height: 13vw;
+    margin-bottom: 9%;
+}
+
+h2 {
+    margin-block-start: 0%; 
+    margin-block-end: 0%;
+    font-size: 3.9vw;
+    
+}
+
+#black_line {
+    border: black solid 0.08vw;
+    background: black;
+    width: 86%;
+}
+
+#first_background {
+    margin-left: 3%;
+    margin-right: 4%;
+    width: 93%;
+    margin-top: 64%;
+}
+
+#background_image {
+    width: 100%;
+    height: 35vw;
+    margin-bottom: 7%;
+}
+
+#description_box {
+    background-color: black;
+    width: 30%;
+    position: absolute;
+    margin-left: 59%;
+    margin-top: 3%;
+    padding: 1%;
+}
+
+#description_text {
+    font-size: 1.2vw;
+    font-weight: bold;
+    
+}
+
+#second_zero_background{
+    background-image: url(image/ocean_plastic.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    height: 40vw;
+    padding-top: 1%;
+    width: 101.3%;
+    margin-left: -0.4%;
+    width: 101.3%;
+    background-size: 100% 100%;
+}
+
+#second_zero_text_background{
+    width: 43%;
+    background: rgba(202, 212, 203, 0.6);
+    margin-left: 28%;  
+
+}
+#second_zero_text_background h1{
+    font-size: 7vw;
+    text-align: center;
+    opacity: 1;
+
+}
+
+#second_first_background{
+    background-image: url(image/beverage.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    height: 40vw;
+    padding-top: 1%;
+    width: 101.3%;
+    margin-left: -0.4%;
+    width: 101.3%;
+    background-size: 100% 100%;
+    margin-top: 6%;;
+}
+
+.second_first_text_background_right{
+    margin-top: 2.8%;
+    width: 30%;
+    background: rgba(0, 0, 0, 0.87);
+    margin-left: 61%;
+    height: 27vw;
+    padding: 3%;
+
+
+}
+
+#final {
+    color: white;
+    font-size: 4.0vw;
+}
+
+
+#second_second_background{
+    background-image: url(image/spreco.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    height: 40vw;
+    padding-top: 1%;
+    width: 101.3%;
+    margin-left: -0.4%;
+    width: 101.3%;
+    background-size: 100% 100%;
+    margin-top: 6%;;
+}
+
+.second_first_text_background_left{
+    margin-top: 2.8%;
+    width: 30%;
+    background: rgba(0, 0, 0, 0.87);
+    margin-left: 2.5%;
+    height: 27vw;
+    padding: 3%;
+
+
+}
+
+#second_third_background{
+    background-image: url(image/plastic_shop.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    height: 40vw;
+    padding-top: 1%;
+    width: 101.3%;
+    margin-left: -0.4%;
+    width: 101.3%;
+    background-size: 100% 100%;
+    margin-top: 6%;;
+}
+
+#second_fourth_background{
+    background-image: url(image/dumb.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    height: 40vw;
+    padding-top: 1%;
+    width: 101.3%;
+    margin-left: -0.4%;
+    width: 101.3%;
+    background-size: 100% 100%;
+    margin-top: 6%;;
+}
+
+#second_fiveth_background{
+    background-image: url(image/dona.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    height: 40vw;
+    padding-top: 1%;
+    width: 101.3%;
+    margin-left: -0.4%;
+    width: 101.3%;
+    background-size: 100% 100%;
+    margin-top: 6%;;
+}
+

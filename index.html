@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oceani di plastica.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="lightbox2/dist/css/lightbox.css" rel="stylesheet" />
+    <script src="lightbox2/dist/js/lightbox-plus-jquery.js"></script>
+    <script src="splide-2.4.21/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="splide-2.4.21/dist/css/splide.min.css" />
+    <link href="main.css" rel="stylesheet">
+    <link rel="stylesheet" href="SLighter-master/build/slighter.css">
+    <link rel="shortcut icon" href="image/onda.ico">
+    <link
+    rel="stylesheet"
+    type="text/css"
+    media="screen"
+    href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+    />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      window.onload = (event) => {
+        AOS.init();
+      };
+    </script>
+    <script src=”SLighter-master/build/slighter.js”></script>
+
+    <script>
+        lightbox.option({
+          'wrapAround': true
+        })
+    </script>
+
+    <script>
+        document.addEventListener( 'DOMContentLoaded', function () {
+            new Splide( '.splide' ).mount();
+        } );
+    </script>
+
+    <script>
+        var splide = new Splide( '#splide' );
+
+        splide.on( 'autoplay:playing', function ( rate ) {
+        	console.log( rate ); // 0-1
+        } );
+
+splide.mount();
+    </script>
+
+
+</head>
+<body>
+
+    <div id = "box_header">
+        
+       
+        
+
+
+        <p id = "right_text">
+            
+
+            Le acque diventano sempre più la discarica della Terra. Tappi e 
+            bottiglie e cannucce e scatole delle sigarette e imballaggi e 
+            posate e molti altri rifiuti stipati in un camion che 
+            ogni minuto si svuota nell'oceano o nel mare: è emergenza in tutto il mondo.
+        </p>
+
+    </div>
+
+    <div id = "box_first_title">
+        <h1>Oceani di plastica.</h1>
+    </div>
+
+    <div id = "column0_plastic">
+        <p>Lavoro svolto da: <br>Alessio Amorosi</p>
+
+        <p class="photo_text" style="margin-top: 6%; margin-bottom: 6%;">La plastica, il principale inquinante di mari e oceani:</p>
+
+        <p>
+            Secondo le stime riportate dal <a href="https://www.wwf.ch/it/i-nostri-obiettivi/inquinamento-dei-mari" target="_blank">WWF</a>
+            <b>86 milioni di tonnellate</b> di plastica (86 000 000 000kg) sono <b>presenti nei nostri oceani e mari</b>, noi però possiamo percepire 
+            soltanto il <b>15%</b> del totale che si scaglia sulle <b>nostre spiagge:</b> il resto o compromette l'ambiente del fondale 
+            marino o addirritura, dato che la maggior parte è meno densa dell'acqua, viene trasportato dalle correnti per lunghe distanze
+            fino a bloccarsi in un vortice. Rifiuto dopo rifiuto si forma un ingorgo che da vita alle "<b>isole di plastica</b>":
+        </p>
+            <ol>
+                <li>
+                    <b>Great Pacific Garbage Patch</b>; scoperta nel 1997, è da 60 anni che si espande tra il Giappone e le Hawaii e attualmente ha raggiunto le dimensioni
+                    di circa tutta la Penisola Iberica (dai 700 mila km2 fino ai 10 milioni di km2).
+                    <br>
+                </li>
+
+                <li>
+                    <b>South Pacific Garbage Patch</b>; misura circa 8 volte l'Italia e cresce tra il Cile e il Perù.
+                </li>
+
+                <li>
+                    <b>North Atlantic Garbage Patch</b>; tra l'Europa e l'America, è l'isola con maggiore densità: 200 mila per km2.
+                </li>
+            </ol>
+        <p>
+            Invece attualmente la ricerca per risolvere questa crisi si sta concentrando sullo sviluppo delle <b>bioplastiche:</b> i nuovi polimeri (sostanze
+            ad elevata massa molare composta da unità strutturali ripetitive) sono riconoscuti da alcuni microrganismi che li degrada liberandone l'energia e generando
+            acqua, biomassa ed anidride carbonica.
+        </p>
+        
+    </div>
+
+    <div id = "column0_plastic">
+        <p class = "photo_text">&ofcir; La situazione dei nostri mari: </p>
+        <a href="image/plastic_info1.png" data-lightbox="image-1" data-title=" La situazione dei nostri mari">
+
+            <img src="image/plastic_info1.png"  class="info_images">
+
+        </a>
+    </div>
+    
+    <div id = "column0_plastic">
+        <p class = "photo_text">&ofcir; Rifiuti marini per tipo: </p>
+
+        <a href="image/plastic_info2.png" data-lightbox="image-1" data-title="Rifiuti marini per tipo">
+
+            <img src="image/plastic_info2.png"  class="info_images">
+
+        </a>
+    </div>
+    
+    <div id="slider_box">
+        <div id="splide" class="splide">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">  <img class = "background_image" src="image/island_plastic.jpg"></li>
+                <li class="splide__slide">  <img class = "background_image" src="image/beach_plastic.jpg"></li>
+                <li class="splide__slide">  <img class = "background_image" src="image/ocean_pollution.jpg"></li>
+              </ul>
+            </div>
+          </div>          
+    </div>
+
+    <div id = "first_photo_box">
+
+        <div class="slider" style="height: 40vw;">
+            <img src="image/plastic_bird2.png" alt="Slide" style="max-width: 100%; height: 40vw;" >
+            <img src="image/turtle_plastic.png" alt="Slide" style="max-width: 100%; height: 40vw;">
+            <img src="image/plastic_kreb.png" alt="Slide" style="max-width: 100%; height: 40vw;">
+            <img src="image/dolphin.jpg" alt="Slide" style="max-width: 100%; height: 40vw;">
+            <img src="image/reptile.png" alt="Slide" style="max-width: 100%; height: 40vw;">
+            <img src="image/fish.png" alt="Slide" style="max-width: 100%; height: 40vw;">
+            <img src="image/dolphin2.png" alt="Slide" style="max-width: 100%; height: 40vw;">
+        </div>
+       
+        
+    </div>
+
+    <script src="SLighter-master/build/slighter.js"></script>
+        <script type="text/javascript">
+            document.addEventListener('DOMContentLoaded', () => {
+                let slider = new Slighter(document.querySelector('.slider'), 6000);
+            });
+    </script>
+
+    <div id = "first_main_box">
+        <div id = "first_zero_column"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            data-aos-easing="ease-in-sine">
+            <p style="text-align: center; margin-top: 40%;">
+                <b>La plastica ha preso all'amo il mondo; cronache di uno sterminio silenzioso:</b>
+            </p>
+
+            <p style="text-align: center; margin-top: 40%;">
+                <b>Entro il 2050 il 99% degli uccelli avranno plastica nelle proprie viscere.</b>
+            </p>
+
+            <p style="text-align: center; margin-top: 5%; margin-top: 40%;">
+                <b>Almeno 44 specie marine sono state intrappolate nella plastica.</b>
+            </p>
+
+            <p style="text-align: center; margin-top: 5%; margin-top: 40%;">
+                <b> 50.000 animali di 116 specie diverse nel Mediterraneo hanno ingerito plastica.</b>
+            </p>
+        </div>
+
+        <div id = "first_first_column"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            data-aos-easing="ease-in-sine"
+        >
+          
+                <iframe src="https://www.youtube.com/embed/yaDx-WJAsaE">
+                </iframe>
+                
+                <h2>Plastica e animali</h2>
+                <div id = "black_line" 
+                data-aos="fade-right"
+                data-aos-duration="3000"
+                data-aos-easing="ease-in-sine">
+                
+
+                </div>
+                <p>
+                    <b>La Terra sta venendo soffocata dalla plastica:</b>
+                    balene che affiorano con sacchi della spazzatura scartati che esplodono dallo stomaco e
+                    uccelli che costruiscono case con vetri rotti e pezzi di plastica e addirritura
+                    una vecchia borsa della spesa trovata a migliaia di piedi sotto la superficie dell'oceano nella trincea più profonda del mondo... <br>
+                    Si sa che quasi <b>700 specie</b>, comprese quelle in via di estinzione, ne sono state colpite. Alcuni sono visibilmente danneggiati e il risultato è spesso fatale: 
+                    <b>
+                        strangolati da reti da pesca abbandonate o soffocati o altri uccisi per blocco gastrointestinale o
+                        per non riuscire più ad assorbire il nutrimento dal cibo
+                    </b>.
+                    Molti altri sono probabilmente danneggiati in modo invisibile. <br>
+                    Il problema non è limitato alla fauna marina: il documentario "<a href="https://www.youtube.com/watch?v=19nNuFIzJ2E&list=LL&index=3&t=3842s" target="_blank">a plastic ocean</a>"
+                    avverte che alcuni ricercatori hanno addirritura trovato <b>276 pezzi di plastica in un solo uccello</b>, ossia circa il suo 15% di massa totale: <b>
+                        come se noi
+                        esseri umani avessimo dai 6 kilogrammi ai 8 kilogrammi nel nostro corpo
+                    </b>. 
+                </p>
+        </div>
+
+    </div>
+
+    <div id = "first_background">
+        <div id = "description_box" style="color: white;">
+            <p id = "description_text">Nel novembre 2019, un giovane capodoglio è stato trovato morto su una spiaggia dell'isola di Harris, in Scozia.
+                 Un'autopsia ha trovato un groviglio di rifiuti da 100 kg nel suo stomaco</p>
+        </div>
+        <img src="image/whale.png" id="background_image">
+        
+
+    </div>
+
+    <div id = "second_zero_background">
+        
+        <div id = "second_zero_text_background">
+            <h1>Le soluzioni:</h1>
+        </div>
+
+    </div>
+
+    <div id = "second_first_background">
+        <div class = "second_first_text_background_right">
+            <h3 id = "final">1. NON SPRECARE</h3>
+        </div>
+    </div>
+
+    <div id = "second_second_background">
+        <div class = "second_first_text_background_left">
+            <h3 id = "final">2. PULISCI GLI AMBIENTI CHE FREQUENTI</h3>
+        </div>
+    </div>
+
+    <div id = "second_third_background">
+        <div class = "second_first_text_background_right">
+            <h3 id = "final">3. COMPRA IN MODO CONSAPEVOLE</h3>
+        </div>
+    </div>
+
+    <div id = "second_fourth_background">
+        <div class = "second_first_text_background_left">
+            <h3 id = "final">4. VOTA IN MODO CONSAPEVOLE</h3>
+        </div>
+    </div>
+
+    
+    <div id = "second_fiveth_background">
+        <div class = "second_first_text_background_right">
+            <h3 id = "final">5. DONA ALLE COOPERATIVE</h3>
+        </div>
+    </div>
+</body>
+</html>
